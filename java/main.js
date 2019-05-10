@@ -75,7 +75,7 @@ nextThree.onclick = () => {
   document.getElementById('letter-note-four').innerHTML = 'C';
   document.getElementById('letter-note-five').innerHTML = 'D';
   document.getElementById('letter-note-six').innerHTML = 'C';
-  lastLyric.display = 'none';
+  lastLyric.style.display = 'none';
 };
 
 
