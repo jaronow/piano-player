@@ -5,8 +5,14 @@ keys.forEach(function(key){
   notes.push(document.getElementById(key));
 })
 
-// Write named functions that change the color of the keys below
+// changes the color of the keys
+const keyPlay = event => {
+  event.target.onmousedown.style.backgroundColor = 'green';
+};
 
+const keyReturn = event => {
+  event.target.onmouseup.style.backgroundColor = '';
+};
 
 // Write a named function with event handler properties
 
