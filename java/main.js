@@ -7,11 +7,11 @@ keys.forEach(function(key){
 
 // changes the color of the keys
 const keyPlay = event => {
-  event.target.onmousedown.style.backgroundColor = 'green';
+  event.target.style.backgroundColor = 'green';
 };
 
 const keyReturn = event => {
-  event.target.onmouseup.style.backgroundColor = '';
+  event.target.style.backgroundColor = '';
 };
 
 // Write a named function with event handler properties
