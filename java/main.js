@@ -20,7 +20,8 @@ const keyEvent = note => {
   note.onmouseup = keyReturn;
 };
 
-// Write a loop that runs the array elements through the function
+// loop for keys to change colors
+notes.forEach(keyEvent);
 
 
 // These variables store the buttons that progress the user through the lyrics
